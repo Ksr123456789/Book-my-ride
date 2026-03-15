@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema({
     select: false,
   },
 
-  sockedId: {
+  socketId: {
     type: String,
   },
 });
